@@ -16,6 +16,6 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
-python src/train_model.py
+python -m src.train_model
 
-python src/main.py
+python -m src.main
